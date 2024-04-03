@@ -1,0 +1,11 @@
+<div class="conatiner">
+  <div class="row row-cols-2 row-cols-lg-4">
+<div *ngFor="let box of boxes | keyvalue">
+    <app-card-sushi-box
+    [box]="box.value"
+    ></app-card-sushi-box>
+    <!DOCTYPE html>
+
+  </div>
+</div>
+</div>

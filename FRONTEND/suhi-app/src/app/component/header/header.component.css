@@ -1,0 +1,10 @@
+.container {
+    background-color: rgb(238, 166, 157); /* Changez la couleur de fond selon vos préférences */
+    padding: 20px;
+    width: 100%; /* Définit la largeur du conteneur à 100% de la largeur de la page */
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur totale */
+}
+.titre {
+    color: rgb(46, 64, 83 ); /* Change la couleur du texte en rouge */
+    text-align: center;
+}

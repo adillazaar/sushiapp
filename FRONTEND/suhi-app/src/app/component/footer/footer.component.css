@@ -1,0 +1,8 @@
+
+.container {
+    background: linear-gradient(to bottom, #929292, #ffffff); /* Dégradé de gris de foncé à clair */
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+} 
+

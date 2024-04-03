@@ -1,0 +1,13 @@
+<div *ngIf="shoppingCart.items && shoppingCart.items.length > 0">
+    <div *ngFor="let item of shoppingCart.items">
+      <div>
+        <img src="{{ box.image }}" alt="Box Image" />
+      </div>
+      <div>
+        <div>{{ item.box.nom }}</div>
+        <div>{{ item.quantiteCommande }}</div>
+        <div>{{ item.box.prix * item.quantiteCommande }}</div>
+      </div>
+    </div>
+    <div>Total: {{ shoppingCart.totalPrice }}</div>
+  </div>
